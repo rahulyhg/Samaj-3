@@ -40,7 +40,18 @@ angular
         templateUrl: 'views/profile.html',
         controller: 'profileCtrl',
         controllerAs: 'profile'
-      }).otherwise({
+      }).when('/browse',{
+        templateUrl: 'views/browse.html',
+        controller: 'browseCtrl',
+        controllerAs: 'browse'
+      })
+      .when('/contacts',{
+        templateUrl: 'views/contacts.html',
+        controller: 'contactCtsrl',
+        controllerAs: 'contacts'
+      })
+      
+      .otherwise({
         redirectTo: '/login'
       });
   });

@@ -34,6 +34,7 @@ background-color:#BBDFEF;
 .card-header{
   background-color: #5c0f32;
   height:50px;
+  width:100%;
 }
 .navbar ul li a{
 
@@ -44,9 +45,10 @@ background-color:#BBDFEF;
   color:white;
   font-size:20px;
 
+
 }
 .card{
-  margin-bottom:140px;
+  margin-bottom:80px;
 }
 
 .btn-outline-secondary {
@@ -124,4 +126,24 @@ background-color:#BBDFEF;
 
 
 
+}
+.radio{
+  padding-right:20px;
+}
+::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input- placeholder { /* Internet Explorer 10-11 */
+ color: red;
+}
+
+::-ms-input- placeholder{ /* Microsoft Edge */
+ color: red;
+}
+.cont{
+
+padding:20px;
+padding-bottom:-20px; 
 }
